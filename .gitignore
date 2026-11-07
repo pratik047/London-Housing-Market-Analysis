@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Log files
+*.log
+
+# Spark temporary files
+.sparkStaging/
+spark-warehouse/
+metastore_db/
+
+# Dataset files - large files excluded
+Dataset/*.csv
+Dataset/cleaned_london_house_price_data/
+
+# Spark checksum files
+*.crc
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+.ipynb_checkpoints/
